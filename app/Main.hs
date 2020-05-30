@@ -5,7 +5,7 @@ import           Control.Monad.Logger           ( runStdoutLoggingT
                                                 , logDebugSH
                                                 )
 import           Options.Applicative
-import           Lib                            ( startApp
+import           Api                            ( startApp
                                                 , Arguments(..)
                                                 )
 
